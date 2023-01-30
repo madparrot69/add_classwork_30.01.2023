@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #05280c;
+}
+
+body{
+    font-family: 'Monsterrat', serif;
+    color: #05280c;
+}
+
+header{
+    width: 1024px;
+    max-width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 600;
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav{
+    flex-grow: 3;
+}
+
+.navigate{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigate a, .join_block{
+    font-size: 13px;
+    font-weight: 400;
+}
+.join_block{
+    flex-grow: 1;
+    text-align: right;
+}
+
+.join{
+    border: none;
+    background: none;
+    padding: 0 20px;
+
+}
+
+.started{
+    border:none;
+    border-radius: 5px;
+    background: #ffc400;
+    padding: 0 20px;
+    height: 40px;
+    width: 0 auto;
+
+}
